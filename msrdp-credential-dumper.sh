@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 DB="$HOME/Library/Containers/com.microsoft.rdc.macos/Data/Library/Application Support/com.microsoft.rdc.macos/com.microsoft.rdc.application-data.sqlite"
+[[ -r $DB ]] || { echo 1>&2 "database could not be accessed"; exit 1; }
+
 MAXCOLS=$(tput cols)
 [[ -n $MAXCOLS ]] || MAXCOLS=80
 export C1=$(( MAXCOLS / 4 ))
