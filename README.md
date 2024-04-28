@@ -22,10 +22,11 @@ The first time you run it, you may be prompted to enter your password so the `se
 
 ![](./sample.png)
 
-## Related AskDifferent post
+## Related AskDifferent posts
 
-[Microsoft Remote Desktop Keychain access][1]
-
+- [Microsoft Remote Desktop Keychain access][1]
+- [Where does Microsoft RDP for Mac store its configuration][3]
 
 [1]: https://apple.stackexchange.com/questions/380121/microsoft-remote-desktop-keychain-access
 [2]: https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466
+[3]: https://apple.stackexchange.com/questions/182209/where-does-microsoft-rdp-8-for-mac-store-its-configuration
