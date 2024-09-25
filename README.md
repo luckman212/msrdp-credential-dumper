@@ -2,7 +2,7 @@
 
 ## MS RDP Credential Dumper
 
-This is a small program for macOS that retrieves and dumps out [Microsoft Remote Desktop][2] (rebranded as "Windows App in Sep 2024) connections and their associated credentials, including the passwords (if they are saved in the Keychain).
+This is a small program for macOS that retrieves and dumps out [Microsoft Remote Desktop][2] (rebranded as "Windows App" in Sep 2024) connections and their associated credentials, including the passwords (if they are saved in the Keychain).
 
 The first time you run it, you may be prompted to enter your password so the `security` tool can access the Keychain item. If you choose **Always Allow** then you won't be prompted on subsequent runs. _Do this only if you are confident of the security of the computer you're running the script on._
 
